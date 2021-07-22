@@ -31,9 +31,9 @@ namespace EfCoreTPTExample
 
             using (var context = new EmployeesContext())
             {
-                context.Employees
-                    .Where(e => e.DepartmentId.HasValue)
-                    .Load();
+                //context.Employees
+                //    .Where(e => e.DepartmentId.HasValue)
+                //    .Load();
             }
         }
     }

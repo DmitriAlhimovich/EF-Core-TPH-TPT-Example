@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EfCoreTPTExample.Models.Employees
+namespace EfCoreExample.Models.Employees
 {
     public class Employee
     {
@@ -14,8 +11,10 @@ namespace EfCoreTPTExample.Models.Employees
 
         public DateTime BirthDate { get; set; }
 
-        public int? DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public DateTime HireDate { get; set; }
+
+        //public int DepartmentId { get; set; }
+        //public Department Department { get; set; }
     }
 
     public class Department
@@ -24,7 +23,7 @@ namespace EfCoreTPTExample.Models.Employees
         public string Title { get; set; }
 
         public string Description { get; set; }
-        public List<Employee> Employees { get; set; }
+        //public List<Employee> Employees { get; set; }
 
     }
 }

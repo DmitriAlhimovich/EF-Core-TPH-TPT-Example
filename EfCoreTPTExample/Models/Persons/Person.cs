@@ -1,10 +1,13 @@
-﻿namespace EfCoreTPTExample.Models.Persons
+﻿using System;
+
+namespace EfCoreExample.Models.Persons
 {
     public abstract class Person
     {
         public long Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
     }
 
     public class Student : Person

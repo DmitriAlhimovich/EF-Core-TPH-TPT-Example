@@ -1,4 +1,4 @@
-﻿using EfCoreTPTExample.Models.Persons;
+﻿using EfCoreExample.Models.Persons;
 using Microsoft.EntityFrameworkCore;
 
 namespace EfCoreTPTExample.Contexts

@@ -1,5 +1,4 @@
-﻿using EfCoreTPTExample.Models.Employees;
-using EfCoreTPTExample.Models.Persons;
+﻿using EfCoreExample.Models.Employees;
 using Microsoft.EntityFrameworkCore;
 
 namespace EfCoreTPTExample.Contexts
@@ -18,7 +17,7 @@ namespace EfCoreTPTExample.Contexts
         {
             optionsBuilder
                 .UseLazyLoadingProxies()
-                .UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EmployeesDBNullable;Trusted_Connection=True;");
+                .UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EmployeesDB;Trusted_Connection=True;");
         }
     }
 }
